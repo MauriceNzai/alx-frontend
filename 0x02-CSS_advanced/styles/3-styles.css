@@ -1,0 +1,40 @@
+
+/* Make effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom properties(variables) for reusability */
+:root {
+	--color-primary: #d73953;
+	--color-black: #090909;
+	--color-white: #ffffff;
+	--color-light-grey: #f3f3f3;
+	--color-dark-grey: #353535;
+	--text-color: var(--color-black);
+}
+
+/* Set text color for body */
+body {
+	color: text-color;
+}
+
+/* Set text color or all anchor tags */
+a  {
+	color: text-color;
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hiden {
+	display: none;
+}
+
+/* Set text color for elements with class card-category */
+.card-category {
+	color: color-primary;
+}
+
+/* Set text color for elements with class section-category */
+.section-tagline {
+	color: color-primary;
+}
