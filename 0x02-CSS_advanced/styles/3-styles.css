@@ -16,12 +16,12 @@ html {
 
 /* Set text color for body */
 body {
-	color: text-color;
+	color: var(--text-color);
 }
 
 /* Set text color or all anchor tags */
 a  {
-	color: text-color;
+	color: var(--text-color);
 }
 
 /* Hide elements with the class visually-hidden */
@@ -31,10 +31,10 @@ a  {
 
 /* Set text color for elements with class card-category */
 .card-category {
-	color: color-primary;
+	color: var(--color-primary);
 }
 
 /* Set text color for elements with class section-category */
 .section-tagline {
-	color: color-primary;
+	color: var(--color-primary);
 }
