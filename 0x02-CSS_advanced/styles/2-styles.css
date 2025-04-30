@@ -1,0 +1,29 @@
+/* Make effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Set text color for body */
+body {
+	color: #161616;
+}
+
+/* Set text color or all anchor tags */
+a  {
+	color: #161616;
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hiden {
+	display: none;
+}
+
+/* Set text color for elements with class card-category */
+.card-category {
+	color: #D73953;
+}
+
+/* Set text color for elements with class section-category */
+.section-tagline {
+	color: #D73953;
+}
