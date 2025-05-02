@@ -1,0 +1,88 @@
+/* Add Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+
+/* Custom properties(variables) for reusability */
+:root {
+	/* Color variables */
+	--color-primary: #d73953;
+	--color-black: #090909;
+	--color-white: #ffffff;
+	--color-light-grey: #f3f3f3;
+	--color-dark-grey: #353535;
+	--text-color: var(--color-black);
+
+	/* Font family variables */
+	--font-family-base: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--font-family-title: 'Raleway', "Helvetica", Helvetica, Arial, sans-serif;
+
+	/* Font size variables */
+	--font-size-small: 1.2rem;
+	--font-size-medium: 1.6rem;
+	--font-size-large: 1.8rem;
+	--font-size-x-large: 2.3rem;
+	--font-size-xx-large:4.8rem;
+
+	/* Font weight variables */
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+
+	/* Line heights variables */
+	--line-height-small: 1.2;
+	--line-height-base: 1.5;
+	--line-height-big: 1.8;
+
+	/* Centering section titles */
+	--section-header-align: center;
+
+	/* Transform section-tagline class */
+	--ection-tagline-transform: uppercase;
+}
+
+/* Make effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
+    /* make 1rem = 10px (easier to calculate) */
+    font-size: 62.5%
+}
+/* Set text color for body */
+body {
+	color: var(--text-color);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-medium);
+	font-weight: var(--font-weight-regular);
+	line-height: var(--line-height-base);
+}	
+
+/* Apply font-family-title toall 6 levels of section headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--font-family-title);
+	font-weight: var(--font-weight-bold);
+}
+
+/* Set text color or all anchor tags */
+a  {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hiden {
+	display: none;
+}
+
+/* Set text color for elements with class card-category */
+.card-category {
+	color: var(--color-primary);
+}
+
+/* Set horizontal alignment for setion titles */
+.section-header {
+	text-align: var(--section-header-align);
+}
+
+/* Set text color for elements with class section-category */
+.section-tagline {
+	color: var(--color-primary);
+	font-weight: var(--font-weight-bold);
+	text-transform: var(--section-tagline-transform);
+}
